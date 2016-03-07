@@ -1,0 +1,4 @@
+curl --data "ajax=1&pn=p1&htd&htv=l" http://www.google.com/trends/hottrends/hotItems > hotsearches.out
+
+Make JSON Blobs pretty
+cat something.json | python -m json.tool
